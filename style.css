@@ -1,0 +1,53 @@
+body {
+    background-color: #1a1a1a;
+    color: white;
+}
+
+.jumbotron {
+    background-color: #2c2c2c;
+    border-radius: 10px;
+}
+
+.navbar-brand {
+    color: #9b59b6 !important;
+}
+
+.nav-link {
+    color: rgb(255, 255, 255);
+    text-shadow: 1px 1px 2px rgb(254, 254, 254), 0 0 1em rgb(158, 2, 255), 0 0 0.2em rgb(151, 58, 238);
+}
+
+.list-group-item {
+    background-color: #2c2c2c;
+    color: white;
+    position: relative;
+}
+
+#search-results {
+    background-color: #2c2c2c;
+}
+
+img {
+    width: 180px;
+    height: 60px;
+    border-radius: 10px;
+}
+
+.anime-details {
+    display: none;
+    background-color: #2c2c2c;
+    color: white;
+    padding: 10px;
+    border: 1px solid #9b59b6;
+    border-radius: 5px;
+    margin-top: 10px;
+}
+
+.anime-details img {
+    width: 200px;
+    height: 200px;
+    border-radius: 5px;
+}
+
+
+

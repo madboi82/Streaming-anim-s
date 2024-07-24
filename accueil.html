@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Shonen Mania</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+            <a class="navbar-brand" href="#"> <img src="images/logo shonen mania.png" alt="logo shonen mania"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ml-auto">
+                    <li class="nav-item">
+                        <a class="nav-link" href="accueil.html">Accueil</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="liste.html">Liste</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Recherche</a>
+                    </li>
+                </ul>
+            </div>
+        </nav>
+    </header>
+
+    <main class="container mt-5">
+        <section id="accueil">
+            <div class="jumbotron text-center bg-dark text-white">
+                <h1>Bienvenue sur Shonen Mania</h1>
+                <p>Votre plateforme de streaming pour les meilleurs animés shonen !</p>
+            </div>
+        </section>
+
+        <section id="liste" class="mt-5">
+            <h2>Liste des animés</h2>
+            <ul class="list-group">
+                <li class="list-group-item"> <a href="snk/index.html"> <button type="button" class="btn btn-light"> Attaque des Titans</button> </a> </li>
+                <li class="list-group-item"><button type="button" class="btn btn-light" > Bleach </button> </li>
+                <li class="list-group-item"><button type="button" class="btn btn-light" > Death Note </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> Demon Slayer </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> Dragon Ball Z </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light" > Hunter x Hunter </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> Jujutsu Kaisen </button> </li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> Naruto </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> Naruto Shippuden </button></li>
+                <li class="list-group-item"><button type="button" class="btn btn-light"> One Piece </button></li>
+            </ul>
+        </section>
+
+        <section id="recherche" class="mt-5">
+            <h2>Recherche</h2>
+            <input type="text" id="search-input" class="form-control" placeholder="Rechercher un animé...">
+            <ul id="search-results" class="list-group mt-2"></ul>
+        </section>
+    </main>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
